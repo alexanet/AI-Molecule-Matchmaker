@@ -22,7 +22,7 @@ def query_llm(drug, disease, score):
         prompt = f"""Explain why the drug {drug} could be repurposed for {disease} in 2-3 sentences. 
         The target similarity score is {score:.1%}. Keep it simple and scientific."""
         
-        payload = {c
+        payload = {
             "inputs": prompt,
             "parameters": {
                 "max_length": 150,
