@@ -2,10 +2,3 @@ pandas==2.3.3
 plotly==5.18.0
 prompt-toolkit==3.0.3
 scikit-learn==0.22.1
-scipy==1.4.1
-seaborn==0.10.0
-tables==3.6.1
-xlrd==1.2.0
-XlsxWriter==1.2.7
-xlwings==0.17.1
-
