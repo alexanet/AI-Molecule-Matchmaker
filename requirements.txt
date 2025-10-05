@@ -2,5 +2,5 @@ pandas==2.3.3
 plotly==6.3.1
 prompt-toolkit==3.0.3
 scikit-learn==1.7.2
-langchain==0.0.346
-langchain-community==0.0.10
+langchain==0.2.12
+langchain-community==0.2.11
