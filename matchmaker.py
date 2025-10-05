@@ -196,6 +196,14 @@ for idx, row in results_df.iterrows():
             st.markdown("---")
             st.caption(f"*AI explanation generated for {drug_name} → {disease_name}*")
 
+st.markdown("---")
+st.caption("""
+**Credits:** 
+- **Code Development**: Tiba with AI assistance from chatgpt
+- **Data Source**: Kaggle Drug Repositioning Dataset
+- **AI Explanations**: Hugging Face Inference API
+- **Deployment**: Streamlit Community Cloud
+""")
 # Sidebar with API status
 with st.sidebar:
     st.header("🔧 Configuration")
